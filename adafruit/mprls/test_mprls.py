@@ -1,5 +1,5 @@
 # Test d'un capteur de pression absolue Adafruit MPRLS
-# 0 - 25 PSI (0.25% pleine échelle)
+# 0 - 25 PSI (1.5% pleine échelle)
 # David THERINCOURT - 05/2020
 
 from machine import I2C
