@@ -4,6 +4,6 @@
 
 ### Adafruit MPRLS 0-25 PSI
 
-![adafruit_MPRLS](/home/david/PRO/Github/micropython-lib/adafruit/mprls/adafruit_MPRLS.png)
+![adafruit_MPRLS](adafruit/mprls/adafruit_MPRLS.png)
 
-Librairie : [mprls.py](./adafruit/mprls/mprls.py)
+Librairie : [mprls.py](adafruit/mprls/mprls.py)
