@@ -10,23 +10,19 @@ Capteur numérique I2C de pression absolue [Adafruit MPRLS](https://www.adafruit
 
 - Capteur : MPRLS (0025PA)
 - Mesure :  0 à 25 PSI (0 à 170 kPa) sur 24 bits
-- Précision : 1,5% pleine échelle
+- Précision : 1,25% pleine échelle
 - Interface : I2C (adresse = 0x18)
 - Alimentation : de 3 à 5 V
 
-## Librairie MicroPython
+## Installation de la librairie `mprls`
 
-```python
-import mprls
-```
-
-
+Copier le fichier `mprls.py` dans la mémoire flash du microcontrôleur aux côtés des fichiers `init.py` et `main.py`.
 
 ## Exemple
 
 ```python
 # Test d'un capteur de pression absolue Adafruit MPRLS
-# 0 - 25 PSI (0.25% pleine échelle)
+# 0 - 25 PSI (1.25% pleine échelle)
 # David THERINCOURT - 05/2020
 
 from machine import I2C
