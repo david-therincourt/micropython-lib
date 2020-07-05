@@ -1,9 +1,16 @@
 # Librairies pour MicroPython
 
-## Capteurs de pression
+## Capteurs
 
-### Adafruit MPRLS 0-25 PSI
+### Capteur de température DS18B20 (OneWire)
+
+![grove_ds18b20_seeedstudio](ds18b20/grove_ds18b20_seeedstudio.jpg)
+
+Lien : [ds18b20/](ds18b20/)
+
+### Capteur de pression absolue Adafruit MPRLS (0-25 PSI)
 
 ![adafruit_MPRLS](adafruit/mprls/adafruit_MPRLS.png)
 
-Librairie : [mprls.py](adafruit/mprls/mprls.py)
+Lien : [adafruit/mprls/](adafruit/mprls/)
+
