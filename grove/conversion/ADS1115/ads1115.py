@@ -54,7 +54,7 @@ class ADS1115():
         
     
     def read(self):
-        ''' Read 15 bits conversion positive value
+        ''' Read 16 bits conversion positive value
         '''
         buf = i2c.readfrom_mem(self.__address, 0, 2) 
         return buf[0]<<8 | buf[1]
