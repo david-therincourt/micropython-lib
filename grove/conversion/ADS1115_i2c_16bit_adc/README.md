@@ -80,7 +80,11 @@ Test on Adafruit STM32F405 Feather :
 >>> i2c.scan()
 [72]      # 72 = 0x48
 >>> from ads1115 import ADS1115
+<<<<<<< HEAD
 >>> can = ADS1115(i2c, 0x48)
+=======
+>>> can = ADS1115(i2c, 0x48-)
+>>>>>>> c870099 (	modifié :         grove/conversion/ADS1115_i2c_16bit_adc/README.md)
 >>> can.read()
 14136
 >>> can.read_voltage()
